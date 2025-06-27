@@ -1,67 +1,139 @@
 const questions = [
-  {
-  question: "What was the 'Eastern Question' primarily concerned with?",
+    {
+  question: "When did World War I begin?",
   answers: [
-    { text: "The colonization of India", correct: false },
-    { text: "The decline of the Ottoman Empire", correct: true },
-    { text: "The rise of China", correct: false },
-    { text: "The unification of Germany", correct: false }
+    { text: "1914", correct: true },
+    { text: "1939", correct: false },
+    { text: "1905", correct: false },
+    { text: "1920", correct: false }
   ]
 },
 {
-  question: "Which countries were part of the main alliance against Russia in the Crimean War?",
+  question: "Which event is widely considered the spark that started World War I?",
   answers: [
-    { text: "Russia, Austria, and Prussia", correct: false },
-    { text: "France, Britain, and the Ottoman Empire", correct: true },
-    { text: "Germany, Austria, and Britain", correct: false },
-    { text: "Italy, France, and Russia", correct: false }
+    { text: "Assassination of Archduke Franz Ferdinand", correct: true },
+    { text: "Invasion of Poland", correct: false },
+    { text: "Sinking of the Lusitania", correct: false },
+    { text: "Zimmermann Telegram", correct: false }
   ]
 },
 {
-  question: "What year did the Crimean War begin?",
+  question: "Which countries made up the Triple Entente?",
   answers: [
-    { text: "1830", correct: false },
-    { text: "1853", correct: true },
-    { text: "1815", correct: false },
-    { text: "1861", correct: false }
+    { text: "France, Russia, Britain", correct: true },
+    { text: "Germany, Austria-Hungary, Italy", correct: false },
+    { text: "USA, France, Britain", correct: false },
+    { text: "Italy, Japan, Germany", correct: false }
   ]
 },
 {
-  question: "Which famous nurse became a symbol of modern nursing during the Crimean War?",
+  question: "Which country switched sides in 1915 to join the Allies?",
   answers: [
-    { text: "Florence Nightingale", correct: true },
-    { text: "Clara Barton", correct: false },
-    { text: "Edith Cavell", correct: false },
-    { text: "Mary Seacole", correct: false }
+    { text: "Italy", correct: true },
+    { text: "Germany", correct: false },
+    { text: "Austria-Hungary", correct: false },
+    { text: "Bulgaria", correct: false }
   ]
 },
 {
-  question: "The Crimean War ended with which treaty?",
+  question: "What type of warfare was most associated with World War I?",
   answers: [
-    { text: "Treaty of Paris (1856)", correct: true },
-    { text: "Treaty of Versailles", correct: false },
-    { text: "Treaty of Vienna", correct: false },
-    { text: "Treaty of Tilsit", correct: false }
+    { text: "Trench warfare", correct: true },
+    { text: "Naval warfare", correct: false },
+    { text: "Guerrilla warfare", correct: false },
+    { text: "Aerial bombing", correct: false }
   ]
 },
 {
-  question: "Which empire was seen as 'the sick man of Europe' in relation to the Eastern Question?",
+  question: "Which new weapon was first widely used during WWI?",
   answers: [
-    { text: "Russian Empire", correct: false },
+    { text: "Poison gas", correct: true },
+    { text: "Atomic bomb", correct: false },
+    { text: "Jet aircraft", correct: false },
+    { text: "Tanks in WWII", correct: false }
+  ]
+},
+{
+  question: "What was the name of the treaty that ended World War I?",
+  answers: [
+    { text: "Treaty of Versailles", correct: true },
+    { text: "Treaty of Ghent", correct: false },
+    { text: "Treaty of Tordesillas", correct: false },
+    { text: "Treaty of Brest-Litovsk", correct: false }
+  ]
+},
+{
+  question: "Which nation joined WWI in 1917 and helped turn the tide?",
+  answers: [
+    { text: "United States", correct: true },
+    { text: "Italy", correct: false },
+    { text: "Japan", correct: false },
+    { text: "Spain", correct: false }
+  ]
+},
+{
+  question: "What was 'No Man's Land'?",
+  answers: [
+    { text: "The area between opposing trenches", correct: true },
+    { text: "A neutral country", correct: false },
+    { text: "A battlefield in Africa", correct: false },
+    { text: "A term for unclaimed colonies", correct: false }
+  ]
+},
+{
+  question: "Which empire collapsed as a result of WWI?",
+  answers: [
     { text: "Ottoman Empire", correct: true },
     { text: "British Empire", correct: false },
-    { text: "Austrian Empire", correct: false }
+    { text: "American Empire", correct: false },
+    { text: "French Empire", correct: false }
   ]
 },
 {
-  question: "Which battle during the Crimean War is known for the 'Charge of the Light Brigade'?",
+  question: "What was the Zimmermann Telegram?",
   answers: [
-    { text: "Battle of Alma", correct: false },
-    { text: "Battle of Sevastopol", correct: false },
-    { text: "Battle of Balaclava", correct: true },
-    { text: "Battle of Inkerman", correct: false }
+    { text: "A German proposal to Mexico to join the war", correct: true },
+    { text: "A peace message to Russia", correct: false },
+    { text: "A British message to France", correct: false },
+    { text: "A Russian threat to Germany", correct: false }
   ]
-}  
+},
+{
+  question: "What was the name of Germany’s military plan to quickly defeat France?",
+  answers: [
+    { text: "Schlieffen Plan", correct: true },
+    { text: "Marshall Plan", correct: false },
+    { text: "Molotov Plan", correct: false },
+    { text: "Versailles Plan", correct: false }
+  ]
+},
+{
+  question: "What was the main reason the US joined WWI?",
+  answers: [
+    { text: "Unrestricted submarine warfare", correct: true },
+    { text: "To gain territory", correct: false },
+    { text: "To support Germany", correct: false },
+    { text: "A treaty with Austria-Hungary", correct: false }
+  ]
+},
+{
+  question: "Which battle is known for being extremely deadly with little territorial gain?",
+  answers: [
+    { text: "Battle of the Somme", correct: true },
+    { text: "Battle of Midway", correct: false },
+    { text: "Battle of Britain", correct: false },
+    { text: "Battle of El Alamein", correct: false }
+  ]
+},
+{
+  question: "What year did World War I end?",
+  answers: [
+    { text: "1918", correct: true },
+    { text: "1920", correct: false },
+    { text: "1917", correct: false },
+    { text: "1915", correct: false }
+  ]
+}      
   ];
   
   const questionElement = document.getElementById("question");
@@ -87,7 +159,7 @@ const questions = [
     currentQuestion.answers.forEach(answer => {
       const button = document.createElement("button");
       button.innerHTML = answer.text;
-     button.classList.add("btn");
+     button.clst.add("btn");
       answerButtons.appendChild(button);
       if(answer.correct){
         button.dataset.correct = answer.correct;
