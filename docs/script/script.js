@@ -1,94 +1,95 @@
 const questions = [
   {
-    question: "Which planet is known as the Red Planet?",
-    answers: [
-     {text:"Venus",correct:false},
-     {text:"Mars",correct:true},
-   {text:"Jupiter",correct:false},
-    {text:"Saturn",correct:false},
-      ]
-  },
- {
-  question:"Who painted the Mona Lisa?",
+  question: "What was the 'Eastern Question' primarily concerned with?",
   answers: [
-    {text:"Vincent van Gogh",correct:false},
-    {text:"Pablo Picasso",correct:false},
-    {text:"Leonardo da Vinci",correct:true},
-    {text:"Michelangelo",correct:false},
-    ]
- },
-  {
-  question:"What is the chemical symbol for water?",
+    { text: "The decline of the Ottoman Empire", correct: true },
+    { text: "The colonization of India", correct: false },
+    { text: "The rise of China", correct: false },
+    { text: "The unification of Germany", correct: false }
+  ]
+},
+{
+  question: "Which countries were part of the main alliance against Russia in the Crimean War?",
   answers: [
-    {text:"H2O",correct:true},
-    {text:"CO2",correct:false},
-    {text:"O2",correct:false},
-    {text:"H2SO4",correct:false},
-    ]
- },
-  {
-  question:"What is the tallest mammal in the world?",
+    { text: "France, Britain, and the Ottoman Empire", correct: true },
+    { text: "Germany, Austria, and Britain", correct: false },
+    { text: "Russia, Austria, and Prussia", correct: false },
+    { text: "Italy, France, and Russia", correct: false }
+  ]
+},
+{
+  question: "What year did the Crimean War begin?",
   answers: [
-  {text:"Elephant",correct:false},
-  {text:"Rhinoceros",correct:false},
-   {text:"Hippopotamus",correct:false},
-    {text:"Giraffe",correct:true},
-    ]
- },
-   {
-  question:"Which country is famous for the Great Wall?",
+    { text: "1853", correct: true },
+    { text: "1815", correct: false },
+    { text: "1830", correct: false },
+    { text: "1861", correct: false }
+  ]
+},
+{
+  question: "Which famous nurse became a symbol of modern nursing during the Crimean War?",
   answers: [
-  {text:"Nepal",correct:false},
-  {text:"Japan",correct:false},
-   {text:"China",correct:true},
-    {text:"India",correct:false},
-    ]
- },
-   {
-  question:"Who is known as the Father of Computers?",
+    { text: "Florence Nightingale", correct: true },
+    { text: "Clara Barton", correct: false },
+    { text: "Mary Seacole", correct: false },
+    { text: "Edith Cavell", correct: false }
+  ]
+},
+{
+  question: "The Crimean War ended with which treaty?",
   answers: [
-  {text:"Bill Gates",correct:false},
-  {text:"Blaise Pascal",correct:false},
-   {text:"Steve Jobs",correct:false},
-    {text:"Charles Babbage",correct:true},
-    ]
- },
-   {
-  question:"Who wrote the Harry Potter book series?",
+    { text: "Treaty of Paris (1856)", correct: true },
+    { text: "Treaty of Versailles", correct: false },
+    { text: "Treaty of Tilsit", correct: false },
+    { text: "Treaty of Vienna", correct: false }
+  ]
+},
+{
+  question: "Which empire was seen as 'the sick man of Europe' in relation to the Eastern Question?",
   answers: [
-  {text:"J.R.R Tolkien",correct:false},
-  {text:"J.K Rownlimg",correct:true},
-   {text:"Stephen Meyn ",correct:false},
-    {text:"Robert kyasoiki",correct:false},
-    ]
- },
-   {
-  question:"What is the largest ocean in the world?",
+    { text: "Ottoman Empire", correct: true },
+    { text: "Russian Empire", correct: false },
+    { text: "Austrian Empire", correct: false },
+    { text: "British Empire", correct: false }
+  ]
+},
+{
+  question: "Which battle during the Crimean War is known for the 'Charge of the Light Brigade'?",
   answers: [
-  {text:"Atlantic Ocean",correct:false},
-  {text:"Pacific Ocean",correct:true},
-   {text:"Indian Ocean",correct:false},
-    {text:"Arctic Ocean",correct:false},
-    ]
- },
-   {
-  question:"What is the capital city of France?",
+    { text: "Battle of Balaclava", correct: true },
+    { text: "Battle of Alma", correct: false },
+    { text: "Battle of Inkerman", correct: false },
+    { text: "Battle of Sevastopol", correct: false }
+  ]
+},
+{
+  question: "What was a key strategic aim of Britain and France in the Crimean War?",
   answers: [
-  {text:"London",correct:false},
-  {text:"Rome",correct:false},
-   {text:"Paris ",correct:true},
-    {text:"Madrid",correct:false},
-    ]
- },
-   {
-  question:"Kathmandu (Nepal) is famous for ?",
+    { text: "To stop Russian expansion into the Mediterranean", correct: true },
+    { text: "To support Russian claims in the Balkans", correct: false },
+    { text: "To annex Crimea for themselves", correct: false },
+    { text: "To establish trade routes to China", correct: false }
+  ]
+},
+{
+  question: "Which Tsar ruled Russia during the Crimean War?",
   answers: [
-  {text:"Temples",correct:false},
-  {text:"Culture",correct:false},
-   {text:"Hiking",correct:false},
-    {text:"All above",correct:true},
-    ]
- }
+    { text: "Nicholas I", correct: true },
+    { text: "Alexander II", correct: false },
+    { text: "Peter the Great", correct: false },
+    { text: "Ivan IV", correct: false }
+  ]
+},
+{
+  question: "Why did Austria not join the war on either side during the Crimean War?",
+  answers: [
+    { text: "It feared upsetting the balance of power in Europe", correct: true },
+    { text: "It had a strong alliance with the Ottoman Empire", correct: false },
+    { text: "It was allied with Russia and joined late", correct: false },
+    { text: "It was engaged in wars with Prussia", correct: false }
+  ]
+}
+  
   ];
   
   const questionElement = document.getElementById("question");
