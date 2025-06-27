@@ -61,14 +61,7 @@ const questions = [
     { text: "Battle of Balaclava", correct: true },
     { text: "Battle of Inkerman", correct: false }
   ]
-},
-{
-  question: "What was a key strategic aim of Britain and France in the Crimean War?",
-  answers: [
-    { text: "To stop Russian expansion into the Mediterranean", correct: true },
-    { text: "To support Russian claims in the Balkans", correct: fa
-      
-  
+}  
   ];
   
   const questionElement = document.getElementById("question");
